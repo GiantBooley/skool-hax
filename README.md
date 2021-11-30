@@ -1,6 +1,5 @@
 # skool-hax
-bookmarklets to do in google. use them by making a bookmark and setting the url to the text in the files. if you want do use them in firefox then you have to put `javascript:(function(){<CODE>})();` instead of `javascript:<CODE>;`.
-some of them are from other people.
+bookmarklets to do in google. use them by making a bookmark and setting the url to the text in the files. if you want do use them in firefox then you have to put `javascript:(function(){<CODE>})();` instead of `javascript:<CODE>;`. some of them are from other people.
 ## autoclicker
 hold down click for 100 cps. it cant be disabled without reloading.
 #### chrome bookmarklet code
