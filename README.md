@@ -28,5 +28,5 @@ javascript:/*Console.js*/;var cjs_00;var cjs_01;var cjs_02;var cjs_03;var cjs_04
 unblock a website using web user cache.
 #### chrome bookmarklet code
 ```
-javascript:var val = prompt("enter the url to unblock.", "");location = "http://webcache.googleusercontent.com/search?q=cache:" + escape(val);
+javascript:var unblockedUrl = prompt("enter the url to unblock.");location = "http://webcache.googleusercontent.com/search?q=cache:" + escape(unblockedUrl);
 ```
