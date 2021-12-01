@@ -16,7 +16,7 @@ javascript:(()=>{var x = document.createElement("script"); x.src = "https://cdn.
 you can select text in a page and edit it. it toggles on and off.
 #### bookmarklet code
 ```
-javascript:(()=>{var clickerCurrentMouseTarget = document.body;document.body.addEventListener('mouseup', () => {clickerIsMouseDown = false});document.body.addEventListener('mousedown', () => {clickerIsMouseDown = true;});document.body.addEventListener('mousemove', (e) => {clickerCurrentMouseTarget = e.target});setInterval(() => {if (clickerIsMouseDown) clickerCurrentMouseTarget.click()}, 0);})();
+javascript:(()=>{if(document.body.contentEditable !== 'true') { document.body.contentEditable = 'true'; document.designMode='on'; void 0 } else { document.body.contentEditable = 'false'; document.designMode='off'; void 0 };})();
 ```
 ## other console
 this console is more neat and better for javascript.
