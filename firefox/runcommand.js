@@ -1,1 +1,1 @@
-var askedCommand = prompt("what command");location="javascript: (() => {"+askedCommand+"})();";
+javascript: (() => {var askedCommand = prompt("what command");location="javascript: (() => {"+askedCommand+"})();";})();
