@@ -31,3 +31,8 @@ unblok a website using web user cache. must be on a website to make it run.
 javascript:(()=>{var unblockedUrl = prompt("enter the url to unblock.");if (unblockedUrl !== null) {location = "http://webcache.googleusercontent.com/search?q=cache:" + escape(unblockedUrl);}})();
 ```
 ## run javascript
+use it to run javascript. budget console.
+#### bookmarklet code
+```
+javascript:(()=>{var askedCommand = prompt("what command");if (askedCommand !== null) {location="javascript: (() => {"+askedCommand+"})();"};})();
+```
