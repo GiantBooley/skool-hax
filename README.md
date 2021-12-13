@@ -37,7 +37,7 @@ use it to run javascript. budget console.
 javascript:(()=>{var askedCommand = prompt("what command");if (askedCommand !== null) {location="javascript: (() => {"+askedCommand+"})();"};})();
 ```
 ## jsconsole
-a console for javascript
+a console for javascript and cant be used for html elements.
 #### bookmarklet code
 ```
 javascript:(()=>{var s=document.createElement("script");s.src="https://cdn.jsdelivr.net/gh/XMB5/ConsoleInject@0bb01e8f/inject.js",document.body.appendChild(s);})();
